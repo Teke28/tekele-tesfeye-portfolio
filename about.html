@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tekele Tesfeye | Portfolio</title>
+    <meta
+      name="description"
+      content="Tekele Tesfeye's portfolio website showcasing skills, projects, and contact information"
+    />
+    <meta
+      name="keywords"
+      content="Tekele Tesfeye, portfolio, software developer, computer science student, Ethiopia"
+    />
+    <meta property="og:title" content="Tekele Tesfeye | Portfolio" />
+    <meta
+      property="og:description"
+      content="Computer Science Student & Software Developer"
+    />
+    <meta property="og:image" content="images/Cropped_20231101_170028.jpg" />
+    <meta property="og:url" content="https://teke28.github.io/portfolio" />
+    <meta name="author" content="Tekele Tesfeye" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container">
+        <a href="home.html" class="logo" aria-label="Home">
+          <img src="images/logo.png" alt="Tekele Tesfeye's Logo" id="logo" />
+        </a>
+
+        <button
+          id="menu-toggle"
+          class="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="nav-menu" class="nav-menu" aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="home.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="skills.html" class="nav-link">Skills</a></li>
+            <li><a href="projects.html" class="nav-link">Projects</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <div class="hero-image">
+          <img
+            src="images/Cropped_20231101_170028.jpg"
+            alt="Tekele Tesfeye professional photo"
+            class="profile-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="hero-text">
+          <h1>Hi, I'm Tekele Tesfeye</h1>
+          <h2>Computer Science Student & Software Developer</h2>
+          <div class="hero-buttons">
+            <a href="about.html" class="btn btn-primary">View About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p>
+            I'm a third-year Computer Science student at the University of
+            Gondar, passionate about building efficient and scalable software
+            solutions that address real-world challenges. With a strong
+            foundation in programming, data structures, and software design, I
+            enjoy turning ideas into practical applications. I'm especially
+            interested in full-stack development, system design, and emerging
+            technologies like AI and cloud computing. I'm constantly learning
+            and striving to grow as a developer committed to innovation and
+            impact.
+          </p>
+          <div class="education">
+            <h3>Education</h3>
+            <div class="education-item">
+              <h4>University of Gondar</h4>
+              <p>Bachelor of Science in Computer Science (Expected 2025)</p>
+              <p>2022 - Present</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="copyright">
+            &copy; <span id="year"></span> Tekele Tesfeye. All rights reserved.
+          </p>
+          <div class="footer-links">
+            <a href="home.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About</a>
+            <a href="skills.html" class="footer-link">Skills</a>
+            <a href="projects.html" class="footer-link">Projects</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+          </div>
+          <a href="#" class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
