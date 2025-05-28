@@ -334,7 +334,7 @@ a:focus {
 
 .profile-img {
   width: 100%;
-  height: auto;
+  height: 100%;
   aspect-ratio: 1/1;
   object-fit: cover;
 }
